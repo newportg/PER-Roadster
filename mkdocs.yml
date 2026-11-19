@@ -1,0 +1,41 @@
+site_name: Smart Roadster 452 Documentation
+site_description: Technical, restoration and EV-conversion documentation for the Smart Roadster 452 Coupé.
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
+
+extra_javascript:
+  - javascripts/mermaid-init.js
+
+nav:
+  - Overview: README.md
+  - Reference dossier: smart-roadster-452-reference-dossier.md
+  - Source and evidence register: smart-roadster-452-source-register.md
+  - Master parts catalog: smart-roadster-452-master-parts-catalog.md
+  - BRABUS Coupé build BOM: smart-roadster-brabus-coupe-build-bom.md
+  - Schematics and image index: smart-roadster-452-schematics-image-index.md
+  - Electrical test bed: smart-roadster-452-electrical-test-bed.md
+  - Electrical conversion options: smart-roadster-electrical-conversion-options.md
+  - Full-EV conversion: smart-roadster-full-ev-conversion.md

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Roadster Coupé EV cabin before and after concept</title>
+  <desc id="desc">Original conceptual illustration comparing the original BRABUS-style cabin with an OEM-look EV conversion.</desc>
+  <defs>
+    <linearGradient id="dash" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#343943"/>
+      <stop offset="1" stop-color="#171a20"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#b8f5d0"/>
+      <stop offset="1" stop-color="#4ca978"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 28px Arial, sans-serif; fill: #f2f5f7; }
+      .label { font: 700 21px Arial, sans-serif; fill: #182027; }
+      .small { font: 16px Arial, sans-serif; fill: #b7c1c8; }
+      .dashline { stroke: #66717b; stroke-width: 3; fill: none; }
+      .white { fill: #f2f5f7; }
+      .green { fill: #7de5ae; }
+      .amber { fill: #f2b84b; }
+      .red { fill: #ef6d6d; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="760" fill="#0d1116"/>
+  <text x="50" y="52" class="title">Smart Roadster Coupé — cabin concept</text>
+  <text x="50" y="82" class="small">Original design study for an EV conversion; retain the factory visual language and switchgear.</text>
+
+  <rect x="45" y="125" width="630" height="560" rx="18" fill="#222832" stroke="#525d67" stroke-width="2"/>
+  <rect x="725" y="125" width="630" height="560" rx="18" fill="#222832" stroke="#7de5ae" stroke-width="2"/>
+  <text x="75" y="170" class="label white">BEFORE — original BRABUS-style cabin</text>
+  <text x="755" y="170" class="label green">AFTER — OEM-look EV conversion</text>
+
+  <path d="M75 310 Q360 205 645 310 L625 595 Q360 665 95 595 Z" fill="url(#dash)" stroke="#66717b" stroke-width="3"/>
+  <path d="M755 310 Q1040 205 1325 310 L1305 595 Q1040 665 775 595 Z" fill="url(#dash)" stroke="#66717b" stroke-width="3"/>
+
+  <circle cx="250" cy="410" r="95" fill="#11151a" stroke="#a9b3ba" stroke-width="5"/>
+  <circle cx="470" cy="410" r="95" fill="#11151a" stroke="#a9b3ba" stroke-width="5"/>
+  <circle cx="1025" cy="410" r="95" fill="#11151a" stroke="#a9b3ba" stroke-width="5"/>
+  <circle cx="1245" cy="410" r="95" fill="#11151a" stroke="#a9b3ba" stroke-width="5"/>
+
+  <path d="M205 445 A60 60 0 0 1 295 445" class="dashline"/>
+  <path d="M425 445 A60 60 0 0 1 515 445" class="dashline"/>
+  <path d="M980 445 A60 60 0 0 1 1070 445" stroke="#7de5ae" stroke-width="5" fill="none"/>
+  <path d="M1200 445 A60 60 0 0 1 1290 445" stroke="#7de5ae" stroke-width="5" fill="none"/>
+
+  <text x="218" y="418" class="small">SPEED</text>
+  <text x="445" y="418" class="small">RPM</text>
+  <text x="986" y="418" class="small">SPEED</text>
+  <text x="1212" y="418" class="small">SOC</text>
+  <text x="224" y="455" class="white" font-size="18">km/h</text>
+  <text x="451" y="455" class="white" font-size="18">x1000</text>
+  <text x="985" y="455" class="green" font-size="18">km/h</text>
+  <text x="1207" y="455" class="green" font-size="18">78%</text>
+
+  <rect x="300" y="500" width="120" height="48" rx="8" fill="#101419" stroke="#66717b" stroke-width="2"/>
+  <text x="317" y="531" class="white" font-size="17">READY</text>
+  <rect x="1075" y="500" width="120" height="48" rx="8" fill="url(#screen)" stroke="#b8f5d0" stroke-width="2"/>
+  <text x="1092" y="531" font-size="17" fill="#10251a">READY</text>
+
+  <rect x="185" y="265" width="345" height="45" rx="8" fill="#101419" stroke="#66717b" stroke-width="2"/>
+  <text x="208" y="294" class="small">BRABUS-style centre information / audio</text>
+  <rect x="865" y="265" width="345" height="45" rx="8" fill="#101419" stroke="#7de5ae" stroke-width="2"/>
+  <text x="895" y="294" class="green" font-size="16">hidden EV data / charging display</text>
+
+  <circle cx="160" cy="545" r="24" fill="#11151a" stroke="#a9b3ba" stroke-width="3"/>
+  <circle cx="555" cy="545" r="24" fill="#11151a" stroke="#a9b3ba" stroke-width="3"/>
+  <circle cx="840" cy="545" r="24" fill="#11151a" stroke="#7de5ae" stroke-width="3"/>
+  <circle cx="1235" cy="545" r="24" fill="#11151a" stroke="#7de5ae" stroke-width="3"/>
+  <text x="115" y="600" class="small">OEM lights / HVAC / switches</text>
+  <text x="795" y="600" class="small">retained OEM switches</text>
+
+  <rect x="755" y="630" width="560" height="35" rx="8" fill="#10251a"/>
+  <text x="780" y="654" class="green" font-size="15">Added discreetly: READY • drive mode • regen • charge release</text>
+</svg>

@@ -1,5 +1,8 @@
 site_name: Smart Roadster 452 Documentation
 site_description: Technical, restoration and EV-conversion documentation for the Smart Roadster 452 Coupé.
+site_url: https://newportg.github.io/PER-Roadster/
+repo_name: newportg/PER-Roadster
+repo_url: https://github.com/newportg/PER-Roadster
 docs_dir: docs
 
 theme:

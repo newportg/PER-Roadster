@@ -11,6 +11,7 @@ catalogue values, owner experience and VIN-dependent data separate.
 | [Reference dossier](./smart-roadster-452-reference-dossier.md) | Consolidated specifications, architecture, parts taxonomy, diagrams, inspection worksheet and evidence limits |
 | [M160 E07 LA engine dossier](./smart-m160-e07-la-engine-dossier.md) | Engine architecture, output variants, W452 integration, public service values and evidence limits |
 | [M160 engine-running stand](./smart-m160-engine-running-stand.md) | Preliminary unloaded stand concept, system diagrams and engineering/commissioning requirements |
+| [M160 running-stand 3D concept](./assets/m160-running-stand-3d.html) | Interactive, illustrative model; geometry and mount locations are not verified |
 | [Source and evidence register](./smart-roadster-452-source-register.md) | What each public source contributes, confidence, and what still requires primary documentation |
 | [Master parts catalog](./smart-roadster-452-master-parts-catalog.md) | All major 452 part families with variant scope, OEM/supersession/cross-reference fields and verification workflow |
 | [BRABUS Coupé build BOM](./smart-roadster-brabus-coupe-build-bom.md) | Donor-car acquisition checklist and factory-style BRABUS Coupé build inventory |

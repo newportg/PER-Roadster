@@ -22,6 +22,10 @@ the available evidence and its limits.
 
 ## Design concept
 
+[Open the interactive 3D concept](./assets/m160-running-stand-3d.html).
+It is a schematic visualisation: the engine, mounts and arrangement are not
+measured and must not be used as fabrication geometry.
+
 Use a low, rigid, floor-secured steel base with an adjustable cradle that
 supports the complete engine/gearbox at its verified original installation
 mounts. Retain the original brackets, mount geometry and engine attitude as
@@ -80,6 +84,48 @@ These must be designed and checked against the engine's cooling circuit.
 Wheels, if fitted for transport, must not be relied on as the running
 restraint; the stand must be secured to a suitable floor before operation.
 
+### Proposed ancillary layout
+
+The following is a starting layout for packaging, **not** a dimensional or
+site-approved arrangement. The engine is shown schematically; its actual
+orientation and the positions of its hot and belt sides must be established
+from the donor before assigning the stand's left and right sides.
+
+```text
+                  PLAN VIEW - NOT TO SCALE
+
+   OUTSIDE THE ENGINE/RIG AREA             RIG AREA
+  +---------------------------+    +------------------------------+
+  | Remote start/stop panel   |    | Radiator + guarded fan      |
+  | and emergency stop        |    | clear airflow to atmosphere |
+  +---------------------------+    +------------------------------+
+                                             | coolant hoses
+   SEPARATE FUEL AREA              +---------v--------------------+
+  +---------------------------+    | Original mount interfaces   |
+  | Secured tank/pump         |--->|     ENGINE + GEARBOX        |
+  | and spill containment     |    | Tray underneath; guards on  |
+  +---------------------------+    | belts and gearbox outputs   |
+                                   +------------------------------+
+                                        |                   |
+                                +-------v------+    +-------v--------+
+                                | Shielded hot |    | Battery, fuses |
+                                | exhaust side |    | and ECU/SAM    |
+                                +-------+------+    +----------------+
+                                        |
+                                 extraction to a
+                                 safe outdoor location
+```
+
+The fuel area and electrical equipment must be separated from the exhaust,
+hot surfaces and potential fuel spray. The diagram does **not** specify a safe
+separation distance: establish this, ventilation and fire protection in the
+site-specific risk assessment. Keep the radiator fan's inlet and discharge
+clear, route coolant away from electrical equipment, and support hoses so
+engine movement cannot chafe or pull on their connections. Keep the electrical
+modules dry and accessible; route the harness away from the exhaust and
+rotating parts. The exhaust needs its own support and allowance for engine
+movement rather than being hung from the turbo.
+
 ## Mechanical design
 
 ### Measurement and interfaces
@@ -107,6 +153,14 @@ unverified block holes, the sump, the exhaust or accessory castings.
 
 ### Engineering and fabrication requirements
 
+- **Candidate material, not a released frame size:** consider certified
+  EN 10219 structural hollow section in S355J2H, subject to the selected
+  fabricator's welding procedure and the engineer's checks. For example,
+  [SSAB's 355J2H catalogue](https://www.ssab.com/en/brands-and-products/ssab-domex/product-offer/tube-355-j2h)
+  lists a 50 x 50 x 3.0 mm square section at 4.25 kg/m. That establishes a
+  commercially available material and section, **not** that it is adequate
+  for this stand. Obtain the actual product certificate and properties for
+  the supplied grade, section and thickness.
 - Design a closed, braced base and cradle with a continuous load path from
   powertrain mounts to floor anchors. Account for weight, offset centre of
   gravity, starting/stopping, vibration, torque reaction, foreseeable faults,
@@ -277,3 +331,9 @@ stage until the fault is corrected and the affected checks are repeated.
 - VIN-matched Mercedes/smart workshop and wiring information — required for
   dimensions, service data, electrical connections and procedures; not yet
   incorporated into this preliminary design.
+- [SSAB Domex Tube 355J2H](https://www.ssab.com/en/brands-and-products/ssab-domex/product-offer/tube-355-j2h) —
+  manufacturer description and section/weight tables for EN 10219-compatible
+  structural hollow section. This is material data, not a stand design.
+- [452 powertrain figure index](https://smartcarmanuals.com/figures/452/powertrain/) —
+  checked for mounting information; the indexed figure does not provide mount
+  positions or dimensions.

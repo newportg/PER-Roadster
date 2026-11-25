@@ -282,6 +282,8 @@ unloaded relay output connected to an unknown resistor or improvised load.
 ## Engine-running boundary
 
 A bench electrical rig does not become an engine test stand by adding power.
+The [M160 engine-running stand concept](./smart-m160-engine-running-stand.md)
+sets out a separate preliminary design and its approval requirements.
 An engine-running test requires, at minimum:
 
 - Secure engine and drivetrain mounting
